@@ -1,0 +1,145 @@
+@media (max-width:425px) {
+    .clearfix, .container-job-description, .table-cell, .row-feature-block, .col-feature-block {
+        display: block;
+    }
+    .float-left {
+        float: none;
+        margin: 0;
+    }
+    .float-right {
+        float: none;
+    }
+    .header-container, .footer-container, .container-company-news {
+        width: 100%;
+    }
+    .container-job-description, .table-cell, .row-feature-block, .col-feature-block {
+        width: 100%;
+        padding: 0;
+    }
+    .header-container-logo, .footer-container-paternity, .cell-feature-title, .table-cell {
+        text-align: center;
+    }
+    .header-container-navbar__list>li, .footer-container-navbar__list>li {
+        display: block;
+        text-align: center;
+    }
+    .slide, .slide-exposition {
+        margin: 0px;
+    }
+    .slider-container {
+        width: 95%;
+    }
+    .col-feature-description, .recent-comments-subtitle>p, .news-categories-subtitle>p, .text-color>p {
+        padding: 3px 10px;
+    }
+    .cell-feature-icon {
+        left: 35px;
+    }
+    .company-updates {
+        padding-left: 40px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .clearfix, .container-job-description, .table-cell, .row-feature-block, .col-feature-block {
+        display: block;
+    }
+    .float-left {
+        float: none;
+        margin: 0;
+    }
+    .float-right {
+        float: none;
+    }
+    .header-container, .footer-container, .container-company-news {
+        width: 100%;
+    }
+    .header-container-logo, .footer-container-paternity, .cell-feature-title, .table-cell {
+        text-align: center;
+    }
+    .container-job-description, .table-cell, .row-feature-block, .col-feature-block {
+        width: 100%;
+        padding: 0;
+    }
+    .header-container-navbar__list>li, .footer-container-navbar__list>li {
+        display: block;
+        text-align: center;
+    }
+    .slide, .slide-exposition {
+        margin: 0px;
+    }
+    .slide-exposition {
+        padding-left: 20px;
+    }
+    .bx-wrapper .bx-next {
+        right: -10px !important;
+    }
+    .bx-wrapper .bx-prev {
+        left: -10px !important;
+    }
+    .slider-container {
+        width: 95%;
+    }
+    .col-feature-description, .recent-comments-subtitle>p, .news-categories-subtitle>p, .text-color>p {
+        padding: 10px 30px;
+    }
+    .cell-feature-icon {
+        left: 35px;
+    }
+    .company-updates {
+        padding-left: 50px;
+    }
+    .company-updates {
+        padding-left: 50px;
+        width: 70%;
+        margin: auto;
+    }
+    
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header-container, .footer-container, .container-company-news, .slider-container, .row-feature-block, .container-job-description {
+        width: 90%;
+    }
+    .bx-wrapper .bx-next {
+        right: -20px !important;
+    }
+    .bx-wrapper .bx-prev {
+        left: -20px !important;
+    }
+    .header-container-navbar__list>li, .footer-container-navbar__list>li {
+        padding: 15px 5px;
+    }
+    .slide {
+        margin: 10px 35px;
+    }
+    .col-feature-block {
+        padding: 20px 30px;
+    }
+    .footer-container-navbar__link {
+        font-size: 16px;
+    }
+    .company-copyright-logo {
+        font-size: 40px;
+    }
+    .recent-comments-title>h2, .news-categories-title>h2 {
+        font-size: 30px;
+    }
+    .container-company-news {
+        display: block;
+    }
+    .slider-news {
+        float: none;
+    }
+    .company-updates {
+        float: none;
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1441px) {
+    .header-container, .footer-container, .container-company-news, .slider-container, .row-feature-block, .container-job-description {
+        width: 1100px;
+    }
+}

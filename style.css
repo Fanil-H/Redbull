@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background: url(./img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 30px 0;
+}
+.header-container, .slider-container, .container-company-news, .row-feature-block, .container-job-description, .footer-container {
+    width: 70%;
+    margin: auto;
+}
+.header-container-logo {
+    margin: 10px 0;
+}
+.clearfix {
+    clear: both;
+    display: table;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.header-container-navbar {
+    margin: 20px 0;
+}
+.header-container-navbar__list>li, .footer-container-navbar__list>li {
+    display: inline-block;
+    padding: 15px 10px;
+}
+.header-container-navbar__list {
+    margin-top: 10px;
+}
+.header-container-navbar__link, .footer-container-navbar__link {
+    color: #ececf6;
+    text-shadow: black 1px 1px;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    -webkit-text-shadow: 6px 5px 5px rgba(0, 0, 0, 0.61);
+    -moz-text-shadow: 6px 5px 5px rgba(0, 0, 0, 0.61);
+    text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.61);
+}
+.header-container-navbar__item>a:hover {
+    color: #fdbfff
+}
+.slider-wrapper {
+    background: rgba(0,0,0,0.3);
+}
+.main-slider {
+    clear: both;
+    display: table;
+}
+.slide {
+    margin: 10px 50px;
+    width: 50%;
+}
+.bx-wrapper {
+    background: rgba(0,0,0,0) !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin: auto;
+}
+.slide-exposition {
+    margin: 50px;
+}
+.slide-exposition__title {
+    color: white;
+    margin: 10px 0;
+    font-size: 36px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.slide-exposition__subtitle {
+    text-transform: uppercase;
+    color: #fdbfff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.slide-exposition__description {
+    color: white;
+}
+.active {
+    border-bottom: 4px solid #fdbfff;
+}
+/* Старт контейнера - Фиолетовый-градиент  */
+.company-feature {
+    background: rgb(58,35,61);
+    background: linear-gradient(0deg, rgba(58,35,61,1) 33%, rgba(108,66,110,1) 64%, rgba(128,80,132,1) 100%);
+}
+.row-feature-block {
+    display: table;
+}
+.col-feature-block {
+    display: table-cell;
+    padding: 40px 50px;
+}
+.cell-feature-icon {
+    position: absolute;
+    left: -50px;
+    top: 25px;
+}
+.fa-solid, .fas {
+    font-size: 30px;
+}
+.fa-brands, .fab {
+    font-size: 30px;
+}
+.col-feature-description {
+    position: relative;
+}
+.cell-feature-title {
+    color: #ffffff;
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.cell-feature-subtitle {
+    color: #ffffff;
+    padding: 10px 0;
+    font-size: 18px;
+}
+.cell-feature-link>a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.cell-feature-link>a:hover {
+    color: #fdbfff;
+    -webkit-text-shadow: 10px 7px 5px rgba(189, 26, 189, 0.65);
+    -moz-text-shadow: 10px 7px 5px rgba(189, 26, 189, 0.65);
+    text-shadow: 5px 5px 8px rgba(189, 26, 189, 0.65);
+}
+.cell-feature-link {
+    text-align: right;
+    padding: 20px;
+}
+/* Финиш контейнера - Фиолетовый-градиент  */
+.company-news {
+    background: #f9f9f9;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.056);
+}
+
+.slide-comments {
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+.slide-comments-description {
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.slide-comments-description::before, .slide-comments-description::after {
+    content: ''; 
+    position: absolute;
+    right: 20px; bottom: -20px;
+    border: 10px solid transparent;
+    border-top: 10px solid white;
+}
+.slide-comments-description::after {
+    border-top: 10px solid white;
+    bottom: -19px; 
+}
+.comment-title__logo, .company-copyright-logo, .company-updates-link>a, .comment-title__tagline, .company-updates-caption {
+    text-transform: uppercase;
+}
+.comment-title__tagline {
+    color: #fdbfff;
+}
+.comment-title {
+    padding: 10px;
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.comment {
+    padding: 10px;
+    font-size: 18px;
+}
+.slide-comments-img {
+    position: absolute;
+    top: 0;
+    left: -40px;
+}
+.comment {
+    quotes: "\201c" "\201d";
+}
+.company-updates {
+    padding: 30px 10px;
+}
+.company-updates-caption {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.example-news {
+    padding: 10px 10px 10px 40px;
+}
+.company-updates-example {
+    list-style: none;
+    padding: 10px 30px;
+}
+.example-news {
+    position: relative;
+}
+.example-news::before {
+    content: url(img/post-img.png);
+    position: absolute;
+    left: -25px;
+    top: 0px;
+}
+.company-updates-link>a {
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.company-updates-link {
+    text-align: right;
+    padding: 10px 40px;
+    margin: 0 40px;
+}
+.slider-logo {
+    padding: 30px;
+    background: #f9f9f9;
+}
+.slider-logo>.bx-wrapper {
+    margin-bottom: 0 !important;
+}
+.special-img {
+    padding: 22px 0;
+}
+/* Старт предпоследнего блока */
+.job-description {
+    background: #ededed;
+}
+.container-job-description {
+    display: table;
+    padding: 20px 0;
+}
+.table-cell {
+    display: table-cell;
+    padding: 20px;
+}
+.company-copyright-logo {
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: -3px;
+}
+.company-copyright-logo__item1 {
+    color: #434343;
+}
+.company-copyright-logo__item2 {
+    color: #cacaca;
+    margin-left: -13px;
+}
+.text-color {
+    color: #434343;
+}
+.company-copyright__data {
+    font-style: italic;
+}
+.recent-comments-title>h2, .news-categories-title>h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px 0;
+    letter-spacing: -2px;
+}
+/* Финиш предпоследнего блока */
+/* Footer */
+footer {
+    background: url(./img/bg-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 30px 0;
+}
+.footer-container-paternity {
+    color: #ececf6;
+    padding: 17px 10px;
+}
